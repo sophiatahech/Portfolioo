@@ -8,8 +8,7 @@
   <h1>What Movie Should You Watch Next?</h1>
 
 <form action="form.php" method="POST">
-<input type="checkbox" name="1d2">
-<fieldset id = "badge_quiz">
+<fieldset id = "movie_quiz">
   <legend>Quiz</legend>
   <legend>Choose a genre</legend>
   <div>
@@ -39,15 +38,47 @@
   <div>
     <input id="submit" type="submit" name="submit" value="Submit"/>
   </div>
-  </fieldset>
+</fieldset>
     </form>
-  </body>
-  <style>
-      h2{
-          text-align: center;
-      }
-      h1{
-          text-align: center;
-      }
-      </style>
+</body>
+<style>
+h2{
+  text-align: center;
+}
+h1 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: #94b4ee;
+    padding: 12px;
+    grid-gap: 8px;
+    font-size: 15px;
+    font-family:monospace;
+}
+
+input[type=text] {
+    border: 2px solid black;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+
+input[type=submit] {
+  background-color: #000000;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: left;
+  }
+.movie_quiz {
+    background-color: powderblue;
+}
+
+</style>
 </html>
