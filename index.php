@@ -1,14 +1,16 @@
 <html>
-  <head>
-    <title>Lab 4</title>
-  </head>
-  <body>
-      <h2>QUIZ</h2>
-      <h1>What Movie Should You Watch Next?</h1>
-    <form action="form.php" method="POST">
-     <input type="checkbox" name="1d2">
-      <fieldset id = "badge_quiz">
-    <legend>Quiz</legend>
+<head>
+  <title>Movie Quiz</title>
+</head>
+
+<body>
+  <h2>QUIZ</h2>
+  <h1>What Movie Should You Watch Next?</h1>
+
+<form action="form.php" method="POST">
+<input type="checkbox" name="1d2">
+<fieldset id = "badge_quiz">
+  <legend>Quiz</legend>
   <legend>Choose a genre</legend>
   <div>
     <label for="comedy_id">Comedy</label>
